@@ -1,0 +1,47 @@
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+
+    /* CENETER PAGE */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 4rem;
+    margin: 5px 0;
+}
+
+.bottom-text {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.gallery img {
+    width: 100%;       /* FILL GRID CELL */
+    height: 250px;     
+    object-fit: cover; /* MASK CROP LIKE ILLUSTRATOR */
+    border-radius: 8px;
+}
+
