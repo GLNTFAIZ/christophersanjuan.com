@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -55,4 +56,5 @@ h2 {
     object-fit: cover;       /* MASK CROP LIKE ILLUSTRATOR */
     border-radius: 12px;
 }
+
 
